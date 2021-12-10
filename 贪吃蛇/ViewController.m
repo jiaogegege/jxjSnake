@@ -134,6 +134,7 @@
     [self createWall];
     _timer = [NSTimer scheduledTimerWithTimeInterval:_time target:self selector:@selector(moveSnake) userInfo:nil repeats:YES];
 }
+
 //创建障碍物方法
 -(void)createWall
 {
